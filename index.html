@@ -9,6 +9,7 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
 	<link rel="stylesheet" href="assets/css/mystyle.css">
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -224,7 +225,7 @@
                         <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Kaushal Landing page">    
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
+                                <h4>Microservice Development</h5>
                                 <p class="font-weight-normal">Category: Web Templates</p>
                             </span>                         
                         </span>                     
@@ -235,7 +236,7 @@
                         <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Kaushal Landing page">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
+                                <h4>SpringBoot Application</h5>
                                 <p class="font-weight-normal">Category: Web Templates</p>
                             </span>                         
                         </span>                         
@@ -246,7 +247,7 @@
                         <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Kaushal Landing page">    
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
+                                <h4>Database Designing</h5>
                                 <p class="font-weight-normal">Category: Web Templates</p>
                             </span>                         
                         </span>                     
@@ -439,27 +440,32 @@
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
             <!-- contact form -->
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLSePFCsgr0UL_6ueGIqaWCIHn9XMct2DIiduPi28n4_y74X6Lw/formResponse" method="POST" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form id ="google-form" action="" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" name="entry.Name" required>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" name="entry.Email" requried>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input type="number" class="form-control" placeholder="Phone Number" name="entry.Phone" requried>
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="entry.message" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
-                    </div>
-                </div>  
+<!--                    <div class="form-group col-sm-6">-->
+<!--                        <input type="text" size="50" class="form-control" placeholder="Your Name" name="entry.Name" required>-->
+<!--                    </div>-->
+<!--                    <div class="form-group col-sm-6">-->
+<!--                        <input type="email" class="form-control" placeholder="Enter Email" name="entry.Email" requried>-->
+<!--                    </div>-->
+<!--                    <div class="form-group col-sm-6">-->
+<!--                        <input type="number" class="form-control" placeholder="Phone Number" name="entry.Phone" requried>-->
+<!--                    </div>-->
+<!--                    <div class="form-group col-sm-12">-->
+<!--                        <textarea name="entry.message" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>-->
+<!--                    </div>-->
+<!--                    <div class="form-group col-sm-12 mt-3">-->
+<!--                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  -->
+<!--                    </div>-->
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePFCsgr0UL_6ueGIqaWCIHn9XMct2DIiduPi28n4_y74X6Lw/viewform?embedded=true" width="640" height="856" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+
             </form><!-- end of contact form -->
+            <div id="submitStatus" class="submit-status" style="display: none;"></div>
         </div><!-- end of container -->
     </section><!-- end of contact section -->
+
+
 
     <!-- footer -->
     <div class="container">
